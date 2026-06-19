@@ -3,18 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Juagram - A rede social de Juatuba</title>
+    <title>Faça seu cadastro no Juagram</title>
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <div id="wrapper">
       <!-- AREA CONTAINER -->
-      <div id="container">
-        <div class="column left">
-          <div class="main"></div>
-        </div>
-
-        <div class="column right">
+      <div id="container-signup">
+        <div class="column">
           <div class="login-panel">
             <div class="logo">
               <img
@@ -23,19 +19,34 @@
                 alt="logo do Juagram"
               />
             </div>
+            <div class="message">
+              <span>Cadastre-se para ver fotos e vídeos de seus amigos</span>
+            </div>
+            <button class="cta-button">Entrar com Facebook</button>
+            <div class="divisor-container">
+              <div class="line"></div>
+              <div class="divisor-tag">ou</div>
+              <div class="line"></div>
+            </div>
             <form>
               <input
-                placeholder="Telefone, usuário ou email"
+                placeholder="Número de celular ou email"
                 type="text"
-                name="username"
+                name="email"
               />
+              <input
+                placeholder="Número de celular ou email"
+                type="text"
+                name="email"
+              />
+              <input placeholder="Nome completo" type="text" name="name" />
+              <input placeholder="Username" type="text" name="username" />
               <input placeholder="Senha" type="password" name="password" />
-
               <input type="submit" value="Entrar" />
             </form>
           </div>
           <div class="infobox">
-            <p>Não possui uma conta? <a href="signup.html">Cadastre-se</a></p>
+            <p>Tem uma conta? <a href="index.html">Conecte-se</a></p>
           </div>
           <div class="get-app-panel">
             Obtenha o aplicativo.
